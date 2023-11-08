@@ -1,4 +1,10 @@
+* {
+  color: white;
+  text-align: center;
+}
+
 body {
+  background-color: rgb(27, 26, 30);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +13,45 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  background-color: rgb(41, 40, 40);
+  padding-bottom: 20px;
+}
+
+.flashcard-container {
+  margin: 20px;
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );
+  gap: 20px;
+}
+
+.flashcard {
+  border-radius: 10px;
+  background-color: rgb(56, 55, 55);
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(56, 55, 55);
+}
+
+label {
+  padding: 20px;
+}
+
+button {
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgb(4, 187, 187);}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }

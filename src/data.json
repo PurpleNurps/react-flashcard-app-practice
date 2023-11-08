@@ -1,0 +1,47 @@
+[
+    {
+      "id": "q1",
+      "question": "What is the Virtual DOM in React?",
+      "answer": "The Virtual DOM is a programming concept where a virtual representation of the UI is kept in memory and synced with the real DOM by a library such as ReactDOM. This process is called reconciliation."
+    },
+    {
+        "id": "q2",
+        "question": "What is React?",
+        "answer": "React is JS library for building out user interfaces."
+      },
+      {
+        "id": "q3",
+        "question": "What are single page applications?",
+        "answer": "A single html template that is updated using DOM."
+      },
+      {
+        "id": "q4",
+        "question": "What does JSX stand for?",
+        "answer": "JavaScript XML"
+      },
+      {
+        "id": "q5",
+        "question": "What is state?",
+        "answer": "The state is a built-in React object that is used to contain data or information about the component."
+      },
+      {
+        "id": "q6",
+        "question": "What are the three phases of a component life cycle?",
+        "answer": "Mounting, Updating, and Unmounting"
+      },
+      {
+        "id": "q7",
+        "question": "What is a React component?",
+        "answer": " A React component is a reusable piece of code that defines the structure, behavior, and appearance of a part of a user interface. Components can be composed together to build complex UIs. They can have their own state, receive data via props, and render content to the screen."
+      },
+      {
+        "id": "q8",
+        "question": "How do you pass data from a parent component to a child component in React?",
+        "answer": "To pass data from a parent component to a child component in React, you can use props. Props are a way to pass data from a parent component to its child components. The parent component can pass data by including attributes on the child component's JSX element, and then the child component can access the data through its props object."
+      },
+      {
+        "id": "q9",
+        "question": "What is the significance of the render method in a React component?",
+        "answer": "The render method is a required method in a React component. It is responsible for returning the JSX (or elements) that make up the component's UI. The render method is called whenever the component needs to be updated or re-rendered due to changes in the component's state or props. It should return a single root element, but this element can have nested child elements."
+      }
+]
